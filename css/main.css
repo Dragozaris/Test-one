@@ -30,6 +30,8 @@ ul {
   margin: 0 auto;
 }
 
+/* <!-- Шапка сайта --> */
+
 .header-nav {
   display: flex;
   align-items: center;
@@ -60,4 +62,38 @@ ul {
 .hero {
   display: flex;
   justify-content: space-around;
+}
+
+.hero-page {
+  margin-left: 144px;
+  margin-bottom: 10px;
+}
+
+.hero-paragraph {
+  margin-left: 144px;
+}
+
+.hero-button {
+  margin-left: 184px;
+}
+
+.hero-arrow {
+  display: flex;
+  justify-content: center;
+  color: black;
+}
+
+/* <!-- Предрекламная --> */
+.promotion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.promotion-page {
+  margin: 30px;
+}
+
+.promotion-paragraph {
+  margin: 55px;
 }

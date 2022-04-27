@@ -27,6 +27,7 @@ ul {
   --basic: rgba(255, 255, 255, 1);
   --additional: rgba(168, 168, 168, 1);
   --promotion: rgba(27, 27, 27, 1);
+  --button: rgba(252, 10, 126, 1);
 }
 
 .container {
@@ -85,11 +86,14 @@ ul {
 .hero-paragraph {
   margin-left: 144px;
   color: var(--basic);
+  margin-bottom: 45px;
 }
 
 .hero-button {
-  margin-left: 184px;
+  margin-left: 144px;
   color: var(--basic);
+  padding: 20px 40px;
+  background-color: var(--button);
 }
 
 .hero-arrow {

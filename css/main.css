@@ -48,8 +48,16 @@ ul {
 .header-list .header-item:not(:last-child) {
   margin-right: 40px;
 }
+
 .header-link {
   display: block;
   padding-top: 40px;
   padding-bottom: 40px;
+}
+
+/* <!-- Герой --> */
+
+.hero {
+  display: flex;
+  justify-content: space-around;
 }

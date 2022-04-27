@@ -30,16 +30,14 @@ ul {
   margin: 0 auto;
 }
 
-/* <!-- Шапка сайта --> */
-
 .header-nav {
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
 .header-logo {
   padding-top: 29px;
   padding-bottom: 28px;
+  margin-right: 665px;
   margin-left: 144px;
 }
 
@@ -47,46 +45,11 @@ ul {
   display: flex;
 }
 
-.header-list .header-item {
+.header-list .header-item:not(:last-child) {
   margin-right: 40px;
 }
 .header-link {
   display: block;
   padding-top: 40px;
   padding-bottom: 40px;
-}
-
-/* <!-- Герой --> */
-.hero {
-  display: flex;
-}
-
-.hero-list {
-  flex-direction: column;
-}
-
-.hero-header {
-  margin: 226px 169px 10px 144px;
-}
-
-.hero-paragraph {
-  margin-left: 144px;
-  margin-bottom: 25px;
-}
-
-.hero-button {
-  margin-left: 184px;
-}
-
-.header-phone {
-  display: flex;
-}
-
-/* <!-- Предрекламная --> */
-.reclame {
-  display: flex;
-}
-
-.reclame-section {
-  justify-content: center;
 }

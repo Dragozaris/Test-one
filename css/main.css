@@ -5,17 +5,8 @@
 }
 
 body {
+  margin: 0;
   font-family: Gothic A1, sans-serif;
-  background-color: #e5e5e5;
-  color: rgba(107, 107, 107, 1);
-}
-
-.container {
-  width: 1350px;
-  padding-left: 45px;
-  padding-right: 45px;
-  margin: auto;
-  max-width: 1440;
 }
 
 a {
@@ -31,3 +22,71 @@ ul {
 /* Цвет параграфов rgba(107, 107, 107, 1) */
 /* Цвет цифр rgba(51, 51, 51, 1) */
 /* Доп цвет rgba(168, 168, 168, 1) */
+
+.container {
+  background-color: #e5e5e5;
+  color: rgba(107, 107, 107, 1);
+  max-width: 1388px;
+  margin: 0 auto;
+}
+
+/* <!-- Шапка сайта --> */
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-logo {
+  padding-top: 29px;
+  padding-bottom: 28px;
+  margin-left: 144px;
+}
+
+.header-list {
+  display: flex;
+}
+
+.header-list .header-item {
+  margin-right: 40px;
+}
+.header-link {
+  display: block;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+/* <!-- Герой --> */
+.hero {
+  display: flex;
+}
+
+.hero-list {
+  flex-direction: column;
+}
+
+.hero-header {
+  margin: 226px 169px 10px 144px;
+}
+
+.hero-paragraph {
+  margin-left: 144px;
+  margin-bottom: 25px;
+}
+
+.hero-button {
+  margin-left: 184px;
+}
+
+.header-phone {
+  display: flex;
+}
+
+/* <!-- Предрекламная --> */
+.reclame {
+  display: flex;
+}
+
+.reclame-section {
+  justify-content: center;
+}

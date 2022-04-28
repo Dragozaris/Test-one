@@ -25,7 +25,7 @@
           <header class="header">
             <nav class="header-nav">
               <a href="/" class="header-logo">
-                <img src="./images/Logo.png" width="120" alt="Логотип" />
+                <img class="logo" src="./images/Logo.png" width="120" alt="Логотип" />
               </a>
               <ul class="header-list">
                 <li class="header-item"><a href="#" class="header-link">About</a></li>
@@ -58,45 +58,54 @@
         </section>
 
         <!-- Описание услуг -->
-        <ul>
-          <li>
-            <h2>Aenean Consectetur</h2>
-            <h3>
-              Cay sociis nato <br />
-              que penatibus et
-            </h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in
-              eros elementum tristique.
-            </p>
+        <ul class="section-services">
+          <li class="services-list-first">
+            <div>
+              <h2>Aenean Consectetur</h2>
+              <h3>
+                Cay sociis nato <br />
+                que penatibus et
+              </h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur <br />
+                adipiscing elit. Suspendisse varius enim in <br />
+                eros elementum tristique.
+              </p>
+            </div>
             <img src="./images/Phone1.png" width="341" alt="Phone" />
           </li>
 
-          <li>
-            <h2>ConsectUltricies</h2>
-            <h3>Amet Ipsum</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in
-              eros elementum tristique.
-            </p>
+          <li class="services-list-second">
+            <div>
+              <h2>ConsectUltricies</h2>
+              <h3>Amet Ipsum</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur <br />
+                adipiscing elit. Suspendisse varius enim in <br />
+                eros elementum tristique.
+              </p>
+            </div>
             <img src="./images/Phone2.png" width="386" alt="Phone" />
           </li>
 
-          <li>
-            <h2>Aenean Consectetur Porta</h2>
-            <h3>Magna Porta Sit Bibendum</h3>
-            <p>
-              pLorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in
-              eros elementum tristique.
-            </p>
+          <li class="services-list-first">
+            <div>
+              <h2>Aenean Consectetur Porta</h2>
+              <h3>Magna Porta Sit Bibendum</h3>
+              <p>
+                pLorem ipsum dolor sit amet, consectetur <br />
+                adipiscing elit. Suspendisse varius enim in <br />
+                eros elementum tristique.
+              </p>
+            </div>
             <img src="./images/Phone3.png" width="341" alt="Phone" />
           </li>
         </ul>
 
         <!-- Описание статистики -->
         <section>
-          <ul>
-            <li>
+          <ul class="statistics">
+            <li class="statistics-list">
               <img src="./images/Hamburger.svg" alt="Hamburger" />
               <h2>Activity Notifications</h2>
               <p>
@@ -104,7 +113,7 @@
                 eros elementum tristique.
               </p>
             </li>
-            <li>
+            <li class="statistics-list">
               <img src="./images/Devices.svg" alt="Devices" />
               <h2>Custom Timing</h2>
               <p>
@@ -112,7 +121,7 @@
                 eros elementum tristique.
               </p>
             </li>
-            <li>
+            <li class="statistics-list">
               <img src="./images/Graph.svg" alt="Graph" />
               <h2>Mobile Optimized</h2>
               <p>
@@ -123,20 +132,20 @@
           </ul>
 
           <!-- Временной график -->
-          <ul>
-            <li>
+          <ul class="time">
+            <li class="time-list">
               <p>+12k</p>
               <p>Nibh Elit Tristique</p>
             </li>
-            <li>
+            <li class="time-list">
               <p>84</p>
               <p>Aenean Condimentum</p>
             </li>
-            <li>
+            <li class="time-list">
               <p>3,07</p>
               <p>Quam Inceptos</p>
             </li>
-            <li>
+            <li class="time-list">
               <p>24h</p>
               <p>Ullamcorper</p>
             </li>
@@ -145,33 +154,35 @@
 
         <!-- О еде -->
         <section>
-          <ul>
-            <li>
-              <h2>Aenean Consectetur Porta</h2>
-              <h3>
-                Sem Risus Elit <br />
-                Vestibulum
-              </h3>
-              <p>
-                Nulla vitae elit libero, a pharetra augue. Duis mollis, est non commodo luctus, nisi
-                erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus
-                sit amet fermentum. Donec id elit non mi porta gravida at eget metus. Etiam porta
-                sem malesuada magna mollis euismod.
-              </p>
-              <img src="./images/Dish1.jpg" width="519" alt="Burger" />
-            </li>
-            <li>
-              <h2>Aenean Consectetur Porta</h2>
-              <h3>Parturient Tortor</h3>
-              <p>
-                Nulla vitae elit libero, a pharetra augue. Duis mollis, est non commodo luctus, nisi
-                erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus
-                sit amet fermentum. Donec id elit non mi porta gravida at eget metus. Etiam porta
-                sem malesuada magna mollis euismod.
-                <img src="./images/Dish2.jpg" alt="Salad" />
-              </p>
-            </li>
-          </ul>
+          <div>
+            <ul>
+              <li>
+                <h2>Aenean Consectetur Porta</h2>
+                <h3>
+                  Sem Risus Elit <br />
+                  Vestibulum
+                </h3>
+                <p>
+                  Nulla vitae elit libero, a pharetra augue. Duis mollis, est non commodo luctus,
+                  nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis
+                  consectetur purus sit amet fermentum. Donec id elit non mi porta gravida at eget
+                  metus. Etiam porta sem malesuada magna mollis euismod.
+                </p>
+                <img src="./images/Dish1.jpg" width="519" alt="Burger" />
+              </li>
+              <li>
+                <h2>Aenean Consectetur Porta</h2>
+                <h3>Parturient Tortor</h3>
+                <p>
+                  Nulla vitae elit libero, a pharetra augue. Duis mollis, est non commodo luctus,
+                  nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis
+                  consectetur purus sit amet fermentum. Donec id elit non mi porta gravida at eget
+                  metus. Etiam porta sem malesuada magna mollis euismod.
+                  <img src="./images/Dish2.jpg" alt="Salad" />
+                </p>
+              </li>
+            </ul>
+          </div>
           <img src="./images/Quotes.svg" alt="Quotes" />
           <p>
             HeadNulla vitae elit libero, a pharetra augue. Duis mollis, est non commodo luctus, nisi

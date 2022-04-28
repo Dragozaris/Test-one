@@ -58,6 +58,10 @@ ul {
 
 .header-list {
   display: flex;
+
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.33px;
 }
 
 .header-list .header-item:not(:last-child) {
@@ -82,12 +86,18 @@ ul {
   margin-left: 144px;
   margin-bottom: 10px;
   color: var(--basic);
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 1px;
 }
 
 .hero-paragraph {
   margin-left: 144px;
   color: var(--basic);
   margin-bottom: 45px;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 1.46px;
 }
 
 .hero-button {
@@ -95,6 +105,10 @@ ul {
   color: var(--basic);
   padding: 20px 40px;
   background-color: var(--button);
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.62px;
 }
 
 .hero-arrow {
@@ -118,11 +132,20 @@ ul {
   margin-top: 100px;
   margin-bottom: 30px;
   color: var(--additional);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.66px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
 .promotion-paragraph {
   margin-bottom: 55px;
   color: var(--basic);
+  font-size: 38px;
+  line-height: 1.26px;
+  text-align: center;
 }
 
 /* <!-- Описание услуг --> */

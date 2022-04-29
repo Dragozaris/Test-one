@@ -329,5 +329,54 @@ ul {
   margin: 0px 118px 0px 216px;
 }
 
-.Phones {
+/* <!-- Подпишись --> */
+.subscribe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 100px;
+}
+
+.subscribe-page {
+  padding-bottom: 60px;
+}
+.subscribe-button {
+  display: flex;
+  align-items: center;
+}
+.subscribe-link-one {
+  padding: 20px 40px;
+  margin-right: 10px;
+}
+.subscribe-link-two {
+  padding: 20px 40px;
+}
+
+/* <!-- Подвал --> */
+
+.footer {
+  background-color: var(--promotion);
+}
+
+.footer-section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer-page {
+  margin: 129px 487px 20px 487px;
+}
+
+.footer-paragaph {
+  margin: 0px 553px 40px 553px;
+}
+
+.footer-button {
+  padding: 50px;
+}
+input::placeholder {
+  color: red;
+  padding: 50px;
 }

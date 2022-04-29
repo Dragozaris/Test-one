@@ -272,12 +272,32 @@ ul {
   margin-left: 202px;
   margin-bottom: 161px;
 }
+.eat-page {
+  color: var(--additional);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.eat-page-mini {
+  color: var(--titles-color);
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 48px;
+}
 
 .eat-paragraph {
   margin-right: 82px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
 }
 .eat-img {
   margin-right: 243px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
 }
 
 .eat-list-two {
@@ -286,7 +306,27 @@ ul {
   flex-direction: row-reverse;
   margin-right: 278px;
 }
+.eat-page-two {
+  color: var(--additional);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
 
+.eat-page-mini-two {
+  color: var(--titles-color);
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 48px;
+}
+
+.eat-paragraph-two {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+}
 .eat-img-two {
   margin-left: 164px;
   margin-right: 77px;
@@ -305,16 +345,25 @@ ul {
   margin-bottom: 65px;
 }
 .quotes-paragraph {
-  text-align: center;
   margin: 0px 370px 17px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 40px;
 }
 
 .author {
   display: flex;
   margin-bottom: 102px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
 }
 .rectangle {
   margin: 0px 20px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
 }
 
 .dot {
@@ -357,26 +406,60 @@ ul {
 
 .footer {
   background-color: var(--promotion);
-}
-
-.footer-section {
   display: flex;
-  align-items: center;
   flex-direction: column;
+  align-items: center;
 }
 
 .footer-page {
-  margin: 129px 487px 20px 487px;
+  margin-top: 129px;
+  margin-bottom: 20px;
+  color: var(--basic);
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 48px;
 }
 
 .footer-paragaph {
-  margin: 0px 553px 40px 553px;
+  margin-bottom: 40px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
 }
 
+/* Кнопка */
 .footer-button {
+  display: flex;
+  margin-bottom: 146px;
+}
+
+.userEmail {
   padding: 50px;
 }
-input::placeholder {
-  color: red;
-  padding: 50px;
+
+.userEmailХ .logos {
+  margin: 0px 652px 29px 652px;
+}
+
+.logos {
+  margin-bottom: 29px;
+}
+
+.description {
+  display: flex;
+  margin: 0px 0px 69px 0px;
+}
+.description-list:not(:last-child) {
+  margin-right: 30px;
+}
+
+.color-link {
+  color: var(--paragraph-color);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
 }

@@ -16,6 +16,9 @@ a {
 ul {
   list-style: none;
 }
+ul {
+  margin: 0px;
+}
 
 /* Цвет шапки basic rgba(255, 255, 255, 1); */
 /* Цвет заголовков rgba(0, 0, 0, 1) */
@@ -28,12 +31,13 @@ ul {
   --additional: rgba(168, 168, 168, 1);
   --promotion: rgba(27, 27, 27, 1);
   --button: rgba(252, 10, 126, 1);
-  --white-background: #e5e5e5;
+  --paragraph-color: rgba(107, 107, 107, 1);
+  --titles-color: rgba(0, 0, 0, 1);
+  --number: rgba(51, 51, 51, 1);
 }
 
 .container {
-  color: var(--white-background);
-  color: rgba(107, 107, 107, 1);
+  color: var(--paragraph-color);
   max-width: 1388px;
   margin: 0 auto;
 }
@@ -61,7 +65,7 @@ ul {
 
   font-weight: 400;
   font-size: 15px;
-  line-height: 1.33px;
+  line-height: 20px;
 }
 
 .header-list .header-item:not(:last-child) {
@@ -88,7 +92,7 @@ ul {
   color: var(--basic);
   font-weight: 400;
   font-size: 80px;
-  line-height: 1px;
+  line-height: 80px;
 }
 
 .hero-paragraph {
@@ -97,7 +101,7 @@ ul {
   margin-bottom: 45px;
   font-weight: 400;
   font-size: 30px;
-  line-height: 1.46px;
+  line-height: 44px;
 }
 
 .hero-button {
@@ -108,7 +112,7 @@ ul {
 
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.62px;
+  line-height: 26px;
 }
 
 .hero-arrow {
@@ -120,12 +124,13 @@ ul {
   margin-bottom: 30px;
 }
 
-/* <!-- Предрекламная --> */
+/* <!-- Реклама --> */
 .promotion {
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: var(--promotion);
+  margin-bottom: 60px;
 }
 
 .promotion-page {
@@ -134,7 +139,7 @@ ul {
   color: var(--additional);
   font-weight: 400;
   font-size: 12px;
-  line-height: 1.66px;
+  line-height: 20px;
   text-align: center;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -144,7 +149,7 @@ ul {
   margin-bottom: 55px;
   color: var(--basic);
   font-size: 38px;
-  line-height: 1.26px;
+  line-height: 48px;
   text-align: center;
 }
 
@@ -152,6 +157,7 @@ ul {
 .section-services {
   display: flex;
   flex-direction: column;
+  margin-bottom: 159px;
 }
 .services-list-first {
   display: flex;
@@ -166,16 +172,63 @@ ul {
   align-items: center;
 }
 
+.services-page {
+  color: var();
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.services-banner {
+  color: var(--titles-color);
+  font-size: 38px;
+  line-height: 48px;
+  margin-bottom: 22px;
+}
+
+.services-paragraph {
+  font-size: 16px;
+  line-height: 30px;
+}
+
+/* <!-- Описание статистики --> */
+
 .statistics {
   display: flex;
+  margin-bottom: 160px;
 }
 .statistics-list {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+.statistics-img {
+  margin-bottom: 40px;
+}
 
-/* <!-- Временной график --> */
+.statistics-page {
+  color: var(--titles-color);
+  margin-bottom: 17px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+}
+.statistics-paragraph {
+  margin-right: 16px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+/* Времнной график */
+
+.section-time {
+  margin-bottom: 160px;
+}
+
 .time {
   display: flex;
   justify-content: space-evenly;
@@ -187,3 +240,94 @@ ul {
 }
 
 /* <!-- О еде --> */
+.time-paragraph {
+  color: var(--number);
+  font-weight: 400;
+  font-size: 59px;
+  line-height: 90px;
+  margin: 0px 0px 24px 0px;
+}
+.time-list {
+  color: var(--titles-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  margin: 0px;
+}
+
+/* <!-- О еде --> */
+
+.about-eat {
+  margin-bottom: 162px;
+}
+
+.section-eat {
+  display: flex;
+  flex-direction: column;
+}
+
+.eat-list {
+  display: flex;
+  align-items: center;
+  margin-left: 202px;
+  margin-bottom: 161px;
+}
+
+.eat-paragraph {
+  margin-right: 82px;
+}
+.eat-img {
+  margin-right: 243px;
+}
+
+.eat-list-two {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  margin-right: 278px;
+}
+
+.eat-img-two {
+  margin-left: 164px;
+  margin-right: 77px;
+}
+
+/* <!-- О нас --> */
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
+.quotes {
+  margin-bottom: 65px;
+}
+.quotes-paragraph {
+  text-align: center;
+  margin: 0px 370px 17px;
+}
+
+.author {
+  display: flex;
+  margin-bottom: 102px;
+}
+.rectangle {
+  margin: 0px 20px;
+}
+
+.dot {
+  margin-bottom: 142px;
+}
+
+.dot-list {
+  margin-right: 16px;
+}
+
+.Panel {
+  margin: 0px 118px 0px 216px;
+}
+
+.Phones {
+}

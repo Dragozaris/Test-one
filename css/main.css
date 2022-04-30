@@ -9,6 +9,10 @@ body {
   font-family: Gothic A1, sans-serif;
 }
 
+main {
+  outline: 5px dotted green;
+}
+
 a {
   text-decoration: none;
 }
@@ -38,7 +42,7 @@ ul {
 
 .container {
   color: var(--paragraph-color);
-  max-width: 1388px;
+  max-width: 1440px;
   margin: 0 auto;
 }
 
@@ -106,10 +110,10 @@ ul {
 
 .hero-button {
   margin-left: 144px;
-  color: var(--basic);
   padding: 20px 40px;
+  border-radius: 3px;
+  color: var(--basic);
   background-color: var(--button);
-
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
@@ -161,14 +165,14 @@ ul {
 }
 .services-list-first {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
 }
 
 .services-list-second {
   display: flex;
   flex-direction: row-reverse;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
 }
 
@@ -396,10 +400,25 @@ ul {
 }
 .subscribe-link-one {
   padding: 20px 40px;
+  border-radius: 3px;
   margin-right: 10px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  background-color: var(--button);
+  color: var(--basic);
 }
 .subscribe-link-two {
   padding: 20px 40px;
+  border-radius: 3px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--basic);
+  border: 1px solid #b04bb3;
+}
+.subscribe-vector {
+  display: flex;
 }
 
 /* <!-- Подвал --> */
@@ -452,6 +471,7 @@ ul {
 .description {
   display: flex;
   margin: 0px 0px 69px 0px;
+  padding: 0px;
 }
 .description-list:not(:last-child) {
   margin-right: 30px;

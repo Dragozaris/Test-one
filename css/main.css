@@ -453,14 +453,30 @@ ul {
 /* Кнопка */
 .footer-button {
   display: flex;
+  justify-content: center;
   margin-bottom: 146px;
 }
 
-.userEmail {
-  padding: 50px;
+.user-email {
+  padding: 22px 155px 22px 3px;
+  box-shadow: 0px 0px 0px #fc0a7e;
+  border-radius: 3px 0px 0px 3px;
+  color: var(--promotion);
 }
 
-.userEmailХ .logos {
+.button {
+  padding: 22px 22px;
+  width: 154px;
+  color: var(--promotion);
+  background-color: var(--button);
+  text-align: center;
+  border-radius: 0px 3px 3px 0px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.logos {
   margin: 0px 652px 29px 652px;
 }
 

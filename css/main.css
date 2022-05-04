@@ -383,20 +383,34 @@ ul {
 }
 
 /* <!-- Подпишись --> */
+
+.group-img {
+  padding-top: 165px;
+  background: linear-gradient(287.15deg, #450e4b 0%, #3c0c41 24.48%, rgba(207, 0, 99, 0) 100%),
+    #cf0063;
+  background-image: url('../images/Group.svg');
+
+  background-repeat: repeat;
+}
+
 .subscribe {
   display: flex;
   flex-direction: column;
   align-items: center;
-  position: relative;
-  top: 100px;
 }
 
 .subscribe-page {
+  margin: 0px;
   padding-bottom: 60px;
+  color: var(--basic);
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 48px;
 }
 .subscribe-button {
   display: flex;
   align-items: center;
+  margin-bottom: 156px;
 }
 .subscribe-link-one {
   padding: 20px 40px;

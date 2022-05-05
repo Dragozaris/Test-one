@@ -9,10 +9,6 @@ body {
   font-family: Gothic A1, sans-serif;
 }
 
-main {
-  outline: 5px dotted green;
-}
-
 a {
   text-decoration: none;
 }
@@ -393,7 +389,7 @@ ul {
   flex-direction: column;
   align-items: center;
   padding-top: 165px;
-  background-image: url('../images/Group.svg');
+  background-image: url('../images/group-test.svg');
   background-repeat: repeat;
 }
 

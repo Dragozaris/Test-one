@@ -390,7 +390,7 @@ ul {
   align-items: center;
   padding-top: 165px;
   background-image: url('../images/group-test.svg');
-  background-repeat: repeat;
+  background-repeat: repeat-x;
 }
 
 .subscribe-page {

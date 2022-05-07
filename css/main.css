@@ -39,6 +39,7 @@ ul {
 .container {
   color: var(--paragraph-color);
   max-width: 1440px;
+  min-width: 1440px;
   margin: 0 auto;
 }
 
@@ -52,20 +53,22 @@ ul {
 .header-nav {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 .header-logo {
   padding-top: 29px;
   padding-bottom: 28px;
-  margin-right: 665px;
+  /* margin-right: 665px; */
   margin-left: 144px;
 }
 
 .header-list {
   display: flex;
-
+  margin-right: 159px;
   font-weight: 400;
   font-size: 15px;
   line-height: 20px;
+  padding-left: 0px;
 }
 
 .header-list .header-item:not(:last-child) {

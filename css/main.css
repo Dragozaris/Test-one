@@ -54,11 +54,11 @@ ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 20px;
 }
 .header-logo {
   padding-top: 29px;
   padding-bottom: 28px;
-  /* margin-right: 665px; */
   margin-left: 144px;
 }
 
@@ -86,7 +86,13 @@ ul {
 
 .hero {
   display: flex;
-  justify-content: space-around;
+  content: '';
+  height: 652px;
+  margin-right: 44px;
+  background-image: url('../images/Phone-main.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right bottom;
 }
 
 .hero-page {

@@ -1,0 +1,27 @@
+.promotion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--promotion);
+  margin-bottom: 60px;
+}
+
+.promotion-page {
+  margin-top: 100px;
+  margin-bottom: 30px;
+  color: var(--additional);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.promotion-paragraph {
+  margin-bottom: 55px;
+  color: var(--basic);
+  font-size: 38px;
+  line-height: 48px;
+  text-align: center;
+}

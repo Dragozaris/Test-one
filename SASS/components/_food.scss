@@ -1,0 +1,74 @@
+.about-eat {
+  margin-bottom: 162px;
+}
+
+.section-eat {
+  display: flex;
+  flex-direction: column;
+}
+
+.eat-list {
+  display: flex;
+  align-items: center;
+  margin-left: 202px;
+  margin-bottom: 161px;
+}
+.eat-page {
+  color: var(--additional);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.eat-page-mini {
+  color: var(--titles-color);
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 48px;
+}
+
+.eat-paragraph {
+  margin-right: 82px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+}
+.eat-img {
+  margin-right: 243px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.eat-list-two {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  margin-right: 278px;
+}
+.eat-page-two {
+  color: var(--additional);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.eat-page-mini-two {
+  color: var(--titles-color);
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 48px;
+}
+
+.eat-paragraph-two {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+}
+.eat-img-two {
+  margin-left: 164px;
+  margin-right: 77px;
+}

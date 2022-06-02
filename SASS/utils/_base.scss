@@ -1,0 +1,48 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Gothic A1, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+ul {
+  margin: 0px;
+}
+
+/* Цвет шапки basic rgba(255, 255, 255, 1); */
+/* Цвет заголовков rgba(0, 0, 0, 1) */
+/* Цвет параграфов rgba(107, 107, 107, 1) */
+/* Цвет цифр rgba(51, 51, 51, 1) */
+/* Доп цвет rgba(168, 168, 168, 1) */
+
+:root {
+  --basic: rgba(255, 255, 255, 1);
+  --additional: rgba(168, 168, 168, 1);
+  --promotion: rgba(27, 27, 27, 1);
+  --button: rgba(252, 10, 126, 1);
+  --paragraph-color: rgba(107, 107, 107, 1);
+  --titles-color: rgba(0, 0, 0, 1);
+  --number: rgba(51, 51, 51, 1);
+}
+
+.container {
+  color: var(--paragraph-color);
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.background {
+  background: linear-gradient(287.15deg, #450e4b 0%, #3c0c41 24.48%, rgba(207, 0, 99, 0) 100%),
+    #cf0063;
+}

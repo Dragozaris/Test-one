@@ -1,0 +1,27 @@
+.statistics {
+  display: flex;
+  margin-bottom: 160px;
+}
+.statistics-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.statistics-img {
+  margin-bottom: 40px;
+}
+
+.statistics-page {
+  color: var(--titles-color);
+  margin-bottom: 17px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+}
+.statistics-paragraph {
+  margin-right: 16px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+}

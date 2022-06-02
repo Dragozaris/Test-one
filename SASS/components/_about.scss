@@ -1,0 +1,43 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
+.quotes {
+  margin-bottom: 65px;
+}
+.quotes-paragraph {
+  margin: 0px 370px 17px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 40px;
+}
+
+.author {
+  display: flex;
+  margin-bottom: 102px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+}
+.rectangle {
+  margin: 0px 20px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.dot {
+  margin-bottom: 142px;
+}
+
+.dot-list {
+  margin-right: 16px;
+}
+
+.Panel {
+  margin: 0px 118px 0px 216px;
+}

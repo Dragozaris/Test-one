@@ -1,0 +1,48 @@
+.hero {
+  display: flex;
+  content: '';
+  height: 652px;
+  margin-right: 44px;
+  background-image: url('../images/Phone-main.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+.hero-page {
+  margin-left: 144px;
+  margin-bottom: 10px;
+  color: var(--basic);
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 80px;
+}
+
+.hero-paragraph {
+  margin-left: 144px;
+  color: var(--basic);
+  margin-bottom: 45px;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 44px;
+}
+
+.hero-button {
+  margin-left: 144px;
+  padding: 20px 40px;
+  border-radius: 3px;
+  color: var(--basic);
+  background-color: var(--button);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.hero-arrow {
+  display: flex;
+  justify-content: center;
+}
+
+.arrow {
+  margin-bottom: 30px;
+}

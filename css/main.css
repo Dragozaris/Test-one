@@ -39,7 +39,6 @@ ul {
 .container {
   color: var(--paragraph-color);
   max-width: 1440px;
-  min-width: 1440px;
   margin: 0 auto;
 }
 
@@ -50,11 +49,14 @@ ul {
 
 /* <!-- Шапка сайта --> */
 
+.header {
+  margin-bottom: 20px;
+}
+
 .header-nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 20px;
 }
 .header-logo {
   padding-top: 29px;
